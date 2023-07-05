@@ -1,0 +1,18 @@
+header {
+  background-color: transparent;
+
+  .navbar-light .navbar-toggler {
+    //&:focus-visible {s
+    box-shadow: none !important;
+    outline: 0 !important;
+    border: none !important;
+    //}
+    &:focus-visible, &:focus {
+      box-shadow: none !important;
+      outline: 0 !important;
+      border: none !important;
+    }
+  }
+}
+
+

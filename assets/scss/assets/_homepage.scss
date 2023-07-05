@@ -1,0 +1,29 @@
+
+.post-item {
+  border: 1px solid darkgrey;
+  padding: 26px 20px;
+  border-radius: 12px;
+  background-color: #fff;
+
+  .post-item-profile-info {
+
+    .post-item-profile-img {
+      img {
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+        box-shadow: 0 3px 8px darkgrey;
+        transition: 0.2s linear;
+      }
+    }
+
+    &:hover .post-item-profile-img img {
+      transform: scale(1.125);
+    }
+  }
+  .post-content{
+    p{
+      font-size: 20px;
+    }
+  }
+}
